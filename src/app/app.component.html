@@ -1,0 +1,18 @@
+<div class="row container mt-4">
+  <div class="col-3">
+    <app-sidebar></app-sidebar>
+  </div>
+  <!-- <div class="col-3">
+    <h2>Busquedas</h2>
+    <hr>
+    <ul class="list-group">
+      <li routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="list-group-item">Buscar pais</li>
+      <li routerLink="region"  routerLinkActive="active" class="list-group-item">Por region</li>
+      <li routerLink="capital" routerLinkActive="active" class="list-group-item">Por capital</li>
+    </ul>
+  </div> -->
+  <div class="col">
+    <router-outlet></router-outlet>
+    <!-- <app-por-region></app-por-region>     -->
+  </div>
+</div>
